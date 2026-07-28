@@ -39,6 +39,7 @@ jobs:
         with:
           context: .
           push: true
+          provenance: false
           tags: |
             roayabdullah/demo-app:${{ github.sha }}
             roayabdullah/demo-app:latest
